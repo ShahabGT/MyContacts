@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+    <LinearLayout
+        android:layout_marginTop="@dimen/search_view_text_padding"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/details_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <EditText
+            android:id="@+id/details_name"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:hint="@string/name"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/search_icon_padding"
+            android:layout_marginRight="@dimen/search_icon_padding"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/details_phone"
+            android:layout_marginTop="@dimen/search_icon_padding"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:maxLength="50"
+            android:hint="@string/phone"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/search_icon_padding"
+            android:layout_marginRight="@dimen/search_icon_padding"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/details_email"
+            android:layout_marginTop="@dimen/search_icon_padding"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:hint="@string/email"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/search_icon_padding"
+            android:layout_marginRight="@dimen/search_icon_padding"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="@dimen/search_icon_padding"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/details_bday"
+                android:layout_gravity="center"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:maxLength="50"
+                android:text="@string/bday"
+                android:layout_marginLeft="@dimen/search_icon_padding"
+                android:layout_marginRight="@dimen/search_icon_padding"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_gravity="center"
+                android:theme="@style/bDayButton"
+                android:id="@+id/details_date"
+                android:text="@string/date"
+                android:layout_marginRight="@dimen/search_icon_padding"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+<View
+    android:id="@+id/details_line"
+    android:layout_above="@id/details_linear"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/colorGray"/>
+    <LinearLayout
+        android:id="@+id/details_linear"
+       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:theme="@style/FlatButton"
+            android:id="@+id/details_cancel"
+            android:text="@string/cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:theme="@style/FlatButton"
+            android:id="@+id/details_save"
+            android:text="@string/save"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

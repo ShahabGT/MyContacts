@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MyContacts</string>.
+
+    <string name="import_title">Importing</string>
+    <string name="import_message">Do you want to import your phones contact?</string>
+    <string name="import_yes">YES</string>
+    <string name="import_no">NO</string>
+
+
+    <string name="contact_permission_title">Camera Permission</string>
+    <string name="contact_permission_message">I need this permission to get your phones contacts, nothing more, I swear!!!!</string>
+    <string name="contact_permission_yes">Allow</string>
+    <string name="contact_permission_no">DENY</string>
+    <string name="permission_toast">Please active CONTACTS permission in settings</string>
+    <string name="permission_denied_toast">Permission Denied</string>
+
+
+    <string name="fill_toast">Fill The Form</string>
+
+
+    <string name="copy_toast">"Copied to clipboard"</string>
+    <string name="share_toast">"Share Contact via"</string>
+
+    <string name="call_permission_title">Call Permission</string>
+    <string name="call_permission_message">I need this permission to call a phone number, That\'s it!</string>
+    <string name="call_permission_yes">Allow</string>
+    <string name="call_permission_no">DENY</string>
+
+    <string name="delete_title">Warning!</string>
+    <string name="delete_message">Are Sure you want to delete %s ? \naction cannot be undone!</string>
+    <string name="delete_yes">YES</string>
+    <string name="delete_no">NO</string>
+
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="share">Share</string>
+    <string name="details">Details</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="bday">Birthday Not Set</string>
+    <string name="date">Select Date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
